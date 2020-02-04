@@ -1,0 +1,102 @@
+
+body{
+    text-transform: capitalize;
+}
+
+header{
+    font-family: 'Caveat', cursive;
+    text-align: center;
+}
+
+
+footer{
+
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    margin: 0 ;
+    padding: 0 ;
+    background-color: #343a40;
+    padding: 5px;
+}
+
+footer h6{
+    font-size: xx-large;
+    color: white;
+    height: 100%;
+    direction: ltr;
+}
+
+
+
+.jumbotron h1{
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+/* sections */
+#aboutMe{
+margin: 0px;
+
+}
+
+#myProjects{
+    margin: 0px;
+}
+
+#contact{
+    text-align: center;
+}
+
+.jumbotron {
+margin: 0px;
+}
+
+
+
+
+
+.about-me-text{
+    text-align:justify ;
+    text-transform: capitalize;
+    direction: ltr;
+}
+
+
+ul {
+    list-style-type: none;
+  }
+
+
+
+  /* projects-images */
+  .projects-images{
+      width: 90%;
+  }
+
+  .projects-h1{
+      padding-bottom: 30px;
+  }
+
+  #myProjects .row{
+    padding: 10px;
+  }
+
+  .nav-link{
+      text-decoration: solid;
+      text-transform: capitalize;
+  }
+
+  #randomQuote{
+      font-size: x-large;
+      text-transform: capitalize;
+      direction: ltr;
+  }
+
+
+  i{
+    padding: 10px;
+    background-color: #e3f2fd;
+    border-radius: 50%;
+  }

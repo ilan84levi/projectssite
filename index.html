@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/871195b5f5.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="jumbotron" style="margin-bottom:0px">
+            <h1>Ilan Levi - Full Stack Web Devloper</h1>
+            <p id="randomQuote"></p>
+        </div>
+
+    </header>
+
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top" dir="ltr">
+
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse-target">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="collapse-target">
+
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#aboutMe">about</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#myProjects">projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">contact me</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" data-target="#resumeDropdown">
+                        resume
+                        <span class="caret"></span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="resumeDropown">
+                        <a class="dropdown-item" href="/assets/files/אילן לוי מעודכן.doc" download>hebrew</a>
+                        <a class="dropdown-item" href="/assets/files/ilan levi  2019 .doc" download>english</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <section id="aboutMe">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">about me</h1>
+                <div>
+                    <p class="lead about-me-text">PROGRAMMER WITH A LOT OF DESIRE,
+                        PASSION AND LOVE TO CODE, THIRST FOR KNOWLEDGE AND
+                        LEARNING NEW TECHNOLOGIES, AUTODIDACT, THOROUGH,
+                        RESPONSIBLE AND PUNCTUAL. LOOKING FOR A LONG-TERM
+                        PERMANENT WORKPLACE TO GROW AND BECOME AN INTEGRAL
+                        PART OF YOUR TEAM. MOTIVATED DEVELOPER,
+                        SKILLED AT WRITING WELL DESIGNED AND EFFICIENT CODE WITH A PASSION
+                        FOR CONTINUED LEARNING.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="myProjects">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4 projects-h1">my projects</h1>
+            </div>
+            <div class="container">
+
+                <div class="row">
+                    <div class="col">
+                        <h4>Countries Flags</h4>
+                        <p>simple ajax call demonstration.
+                            Technologies: Html,Css,Javascript,Ajax,Rest Api
+                        </p>
+                        <button onclick="location.href='https://ilan84levi.github.io/countries-flags/'"  type="button" class="btn btn-success">Live preview</button>
+                        <button onclick="location.href='https://github.com/ilan84levi/countries-flags'" type="button" class="btn btn-primary">Code</button>
+                    </div>
+                    <div class="col">
+                        <img class="projects-images" src="/assets/images/country-list.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <h4>home tasks</h4>
+                        <p>angular project - saving home chores on local storage.
+                           for the design i used for most of the project, Angular Material.
+                            Technologies: Html, Css, Javascript, local storage, angular, Angular Material
+                        </p>
+                        <button onclick="location.href=' https://ilan84levi.github.io/home-tasks'" type="button" class="btn btn-success">Live preview</button>
+                        <button onclick="location.href='https://github.com/ilan84levi/home-to-do-list'" type="button" class="btn btn-primary">Code</button>
+                    </div>
+                    <div class="col">
+                        <img class="projects-images" src="/assets/images/home-tasks.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <h4>cryptocurrency market</h4>
+                        <p>get the latest price for cryptocurrency coins. 
+                           this site was built with javascript and canvas.js.
+                            Technologies: Html,Css,Javascript,Ajax,Rest Api, local storage, canvas.js, bootstrap
+                        </p>
+                        <button  onclick="location.href='https://ilan84levi.github.io/cryptocurrency-coins-market/'" class="btn btn-success">Live preview</button>
+                        <button  onclick="location.href='https://github.com/ilan84levi/cryptocurrency-coins-market'" class="btn btn-primary">Code</button>
+                    </div>
+                    <div class="col">
+                        <img class="projects-images" src="/assets/images/cryptocurrency.jpg" alt="cryptocurrency">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <h4>task board</h4>
+                        <p>in the task board you can save reminders to the local storage.
+                            Technologies: Html,Css,Javascript, local storage.
+                        </p>
+                        <button  onclick="location.href='https://ilan84levi.github.io/sticky-notes-remainder/'" class="btn btn-success">Live preview</button>
+                        <button  onclick="location.href='https://github.com/ilan84levi/sticky-notes-remainder'" class="btn btn-primary">Code</button>
+                    </div>
+                    <div class="col">
+                        <img class="projects-images" src="/assets/images/task-board.jpg" alt="task-board">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <h4>memory game</h4>
+                        <p>javascript memory game
+                            Technologies: Html,Css,Javascript
+                        </p>
+                        <button  onclick="location.href='https://ilan84levi.github.io/memorygame/'" class="btn btn-success">Live preview</button>
+                        <button  onclick="location.href='https://github.com/ilan84levi/memorygame'" class="btn btn-primary">Code</button>
+                    </div>
+                    <div class="col">
+                        <img class="projects-images" src="/assets/images/mix-or-match.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <h4>lawyers site sample</h4>
+                        <p>simple site.
+                            Technologies: Html,Css,Javascript, bootstrap
+                        </p>
+                        <button  onclick="location.href='https://ilan84levi.github.io/sitesample3/'" class="btn btn-success">Live preview</button>
+                        <button  onclick="location.href='https://github.com/ilan84levi/sitesample3 '" class="btn btn-primary">Code</button>
+                    </div>
+                    <div class="col">
+                        <img class="projects-images" src="/assets/images/lawyer site sample.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <h4>site sample</h4>
+                        <p>simple site sample. one of the very first projects.
+                            Technologies: Html,Css,Javascript, bootstrap.
+                        </p>
+                        <button  onclick="location.href='https://ilan84levi.github.io/siteexemple1/'" class="btn btn-success">Live preview</button>
+                        <button  onclick="location.href='https://github.com/ilan84levi/siteexemple1'" class="btn btn-primary">Code</button>
+                    </div>
+                    <div class="col">
+                        <img class="projects-images" src="/assets/images/site sample2.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <h4>tic tack toe game</h4>
+                        <p>javascript tic tack toe game.
+                            Technologies: Html,Css,Javascript.
+                        </p>
+                        <button  onclick="location.href='https://ilan84levi.github.io/tic-tac-toe/'" class="btn btn-success">Live preview</button>
+                        <button  onclick="location.href='https://github.com/ilan84levi/tic-tac-toe'" class="btn btn-primary">Code</button>
+                    </div>
+                    <div class="col">
+                        <img class="projects-images" src="/assets/images/tic tac.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <h4>playlist site</h4>
+                        <p>a complex php site. allows to register and login.
+                            add/delete/update new youtube clips.
+                            Technologies: Html,Css,Javascript,php, mysql, local storage.
+                        </p>
+                        <!-- <button  onclick="location.href='https://github.com/ilan84levi/tic-tac-toe'" class="btn btn-success">Live preview</button> -->
+                        <button  onclick="location.href='https://github.com/ilan84levi/playlist-site-sample'" class="btn btn-primary">Code</button>
+                    </div>
+                    <div class="col">
+                        <img class="projects-images" src="/assets/images/playlist.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <h4>supermarket</h4>
+                        <p>a complex angular site including redux.
+                           the user can login/registar. make orders and more.
+                            Technologies: Html,Css,Javascript, redux, angular , mongodb, nodeJs
+                        </p>
+                        <!-- <button type="button" class="btn btn-success">Live preview</button> -->
+                        <button  onclick="location.href='https://github.com/ilan84levi/grocery-store'" class="btn btn-primary">Code</button>
+                    </div>
+                    <div class="col">
+                        <img class="projects-images" src="/assets/images/super.jpg" alt="super">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">contact me</h1>
+            </div>
+
+            <div>
+                <ul class="contact-section-main-list">
+
+                    <li class="contact-section-main-list-item">
+                        <i href="https://www.linkedin.com/in/ilan-levi-b3737254/" class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/ilan-levi-b3737254/" target="_blank">
+                            https://www.linkedin.com/in/ilan-levi-b3737254/
+                        </a>
+                    </li>
+
+                    <li class="contact-section-main-list-item">
+                        <i href="https://github.com/adilevi55" class="fab fa-github-square"></i>
+                        <a href="https://github.com/adilevi55" target="_blank">
+                            github.com/adilevi55
+                        </a>
+                    </li>
+
+                    <li class="contact-section-main-list-item">
+                        <i class="fa fa-envelope-o" target="_blank" href="mailto:ilan841@gmail.com">
+
+                        </i>
+
+                        <a href="mailto:ilan841@gmail.com" target="_blank">
+                            ilan841@gmail.com
+                        </a>
+                    </li>
+                    <li class="contact-section-main-list-item">
+                        <i class="fas fa-mobile " target="_blank"></i>
+                        <a href="tel:054-2053444">054-2053444</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="container-fluid">
+        <section class="myfooter">
+            <h6>All Rights Reserved To Ilan Levi   &copy; </h6>
+        </section>
+    </footer>
+
+</body>
+
+</html>
